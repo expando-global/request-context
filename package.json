@@ -1,0 +1,43 @@
+{
+  "name": "expando-request-context",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node index.js"
+  },
+  "files": [
+    "dist/**.*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expando-global/request-context.git"
+  },
+  "keywords": [],
+  "author": "EXPANDO global, s.r.o.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/expando-global/request-context/issues"
+  },
+  "homepage": "https://github.com/expando-global/request-context#readme",
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "@hapi/joi": "15.0.0",
+    "@types/hapi__joi": "15.0.0",
+    "@types/koa": "^2.11.3",
+    "@types/mongodb": "^3.5.23",
+    "mongodb": "^3.5.9",
+    "typesafe-joi": "2.1.0"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "semi": true,
+    "printWidth": 80
+  }
+}
